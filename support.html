@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Erben Ákos / Gávris Attila / Kapecska Petra</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <main>
+      <header>
+        <h1>Support</h1>
+      </header>
 
-        <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About the game</a></li>
+        </ul>
+      </nav>
 
-            <h1>Support</h1>
-
-        </header>
-
-        <nav>
-
-            <ul>
-
-                <li><a href="index.html">Home</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="store.html">Store</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="about.html">About the game</a></li>
-
-            </ul>
-
-        </nav>
-        
-        <article>
-
-            <p></p> 
-        </article>
-        <aside></aside>
-        <footer>
-
-            <P>Erben Ákos / Gávris Attila / Kapecska Petra</P>
-
-        </footer>
-
+      <article>
+        <form action="">
+          <fieldset>
+            <legend>Opinion:</legend>
+            <label for="fname">First name:</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="John"
+            /><br />
+            <label for="lname">Last name:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Doe"
+            /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="wohoo@gmail.com"
+            /><br /><br />
+            <textarea
+              name="message"
+              rows="15"
+              cols="60"
+              placeholder="You can write here!"
+            ></textarea>
+            <br /><br />
+            <input type="button" onclick="document.location.reload(true)" value="Submit!">
+          </fieldset>
+        </form>
+      </article>
+      <aside></aside>
+      <footer>
+        <p>Erben Ákos / Gávris Attila / Kapecska Petra</p>
+      </footer>
     </main>
-
-</body>
+  </body>
 </html>
