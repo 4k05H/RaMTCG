@@ -19,6 +19,7 @@ h1 {
 }
 
 ul {
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,6 +28,7 @@ ul {
 }
 
 li {
+  justify-content: center;
   float: left;
 }
 
@@ -61,4 +63,18 @@ a {
 footer {
   background-color: black;
   padding: 20px;
+}
+#nav {
+  width: 750px;
+  margin: 0 auto;
+  list-style: none;
+}
+#nav li {
+  float: left;
+}
+#nav a {
+  display: block;
+  text-align: center;
+  width: 110px;
+  text-decoration: none;
 }
