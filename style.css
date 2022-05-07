@@ -29,8 +29,9 @@ body {
 footer {
   background-color: black;
   /*padding: 20px;*/
-  position: absolute;
+  position: relative;
   bottom: 0;
+  height: 50px;
   width: 800px;
 }
 /*NAV*/
