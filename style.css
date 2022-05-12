@@ -6,6 +6,11 @@ main {
   color: white;
   text-align: center;
 }
+article p{
+  text-align: justify;
+  padding: 20px;
+  font-size: larger;
+}
 
 header {
   background-image: url("kepek/ricknmorty_header.jpg");
